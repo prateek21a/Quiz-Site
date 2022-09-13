@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #1054bb;
+  /* background-color: #1054bb; */
   background-image: linear-gradient(315deg, #6262d1 0%, #cc3535 100%);
   font-family: 'Poppins', sans-serif;
   display: flex;
@@ -42,8 +42,8 @@ ul li label{
   cursor: pointer;
 }
 button{
-  background-color: #00dbf8;
-  color: #fff;
+  background-color: #022a9a;
+  color: rgb(255, 253, 255);
   border: none;
   display: block;
   width: 100%;
@@ -53,9 +53,9 @@ button{
   padding: 1.3rem;
 }
 button:hover{
-  background-color: #04adc4;
+  background-color: #47d524;
 }
 button:focus{
   outline: none;
-  background-color: #44b927;
+  background-color: #022a9a;
 }
