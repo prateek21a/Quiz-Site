@@ -61,7 +61,7 @@ loadQuiz()
 
 function loadQuiz() {
 
-    deselectAnswers()
+    deselectAnswers() 
 
     const currentQuizData = quizData[currentQuiz]
 
@@ -71,7 +71,7 @@ function loadQuiz() {
     c_text.innerText = currentQuizData.c
     d_text.innerText = currentQuizData.d
 }
-
+//option not ticked already so we use a function 
 function deselectAnswers() {
     answerEls.forEach(answerEl => answerEl.checked = false)
 }
@@ -94,6 +94,7 @@ submitBtn.addEventListener('click', () => {
            score++
        }
 
+        //for jump in next quetion
        currentQuiz++
 
        if(currentQuiz < quizData.length) {
